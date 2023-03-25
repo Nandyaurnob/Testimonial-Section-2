@@ -1,0 +1,42 @@
+/* Bigger Screen Layout: 1600px. */
+.selectnav {display:none;}
+#nav {display:inline-table}
+.column{width:100%}
+.view {width: 25%;}
+.view img {width: 100%;}
+
+/* Desktop Layout: 1599px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1599px) {
+.selectnav {display:none;}
+#nav {display:inline-table}
+.column{width:100%}
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.selectnav {display:none;}
+#nav {display:inline-table}
+.column{width:750px}
+.view {width: 250px;}
+.view img {width: 100%;}
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.selectnav {display:block;}
+#nav {display:none}
+.column{width:300px}
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.selectnav {display:block;}
+#nav {display:none}
+.column{width:450px}
+}

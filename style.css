@@ -1,0 +1,116 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800');
+
+
+
+
+body {font-family: 'Khula', sans-serif;}
+
+a:hover {text-decoration: none;}
+
+
+
+.section-title {
+    color: #6D866A;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-title p{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 28px;
+    line-height: 37px;
+}
+
+
+.single-case-study {
+    width: 355px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+
+
+.case-study-wrapper {
+    width: 315px;
+    height: 320px;
+    text-align: center;
+    background: #DFE5CE80;
+    color: #1a1a1a;
+    border: 1px solid #6D866A;
+    padding-top: 35px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+
+.case-study-wrapper:hover{
+    background:#fff;
+    transition: .2s;
+}
+
+.case-study-wrapper h2 {
+    color: #1a1a1a;
+    font-size: 25px;
+    font-family: Abril Fatface;
+    font-weight: bold;
+    height: 10px;
+}
+
+.case-study-wrapper h3 {
+    color: #1a1a1a;
+    font-size: 25px;
+    font-family: Abril Fatface;
+    font-weight: bold;
+    height: 20px;
+}
+
+.case-study-wrapper p {
+    font-size: 16px;
+}
+
+
+
+.single-case-study:hover .case-study-wrapper {
+    opacity: 1;
+    visibility: visible;
+}
+
+.case-studies-carousel .owl-carousel .owl-wrapper-outer {
+    overflow: inherit;
+}
+
+.section-padding .overflow-x-hidden {
+    overflow: hidden;
+}
+
+.owl-item {
+    margin-left: 10px;
+}
+
+.owl-pagination div {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #e2e2e2;
+    display: inline-block;
+    margin: 5px;
+}
+
+.owl-pagination div.active {
+    background-color: #2A3542;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.owl-pagination {
+    text-align: center;
+}
